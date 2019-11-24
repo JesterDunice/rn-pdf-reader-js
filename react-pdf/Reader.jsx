@@ -194,7 +194,7 @@ class Reader extends Component {
             </Document>
           </div>
 
-          {!cached && this.renderLoader()}
+          {/* {!cached && this.renderLoader()} */}
 
           {numPages && (
             <div className="Reader__container__numbers">
